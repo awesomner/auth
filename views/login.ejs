@@ -1,0 +1,25 @@
+<%- include ('partials/header') %>
+
+
+  <div class="container">
+    <div class="row">
+      <div class="col">
+      </div>
+      <div class="col">
+        <div class="row justify-content-center">
+          <div class="col">
+            <h1>Login</h1>
+            <form class="form-signin" action="/login" method="post">
+                <input class="form-control" type="text" name="username" placeholder="Username">
+                <input class="form-control" type="password" name="password" placeholder="Password"><br>
+                <button class="btn btn-outline-primary btn-lg btn-block">Login</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+      </div>
+    </div>
+  </div>
+
+<%- include ('partials/footer') %>

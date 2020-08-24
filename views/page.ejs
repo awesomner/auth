@@ -1,0 +1,27 @@
+<%- include ('partials/header') %>
+
+<div class="container">
+  <div class="row">
+    <div class="col">
+    </div>
+    <div class="col">
+      <div class="row justify-content-center">
+        <span>
+          <br>
+          <p>Secret Page</p>
+        </span>
+      </div>
+      <div class="row justify-content-center">
+        <form class="form-signin" action="/page" method="post">
+          <input class="form-control" type="text" name="username" value="challenge">
+          <input class="form-control" type="password" name="password" placeholder="password"><br>
+          <button class="btn btn-outline-primary btn-lg btn-block">Submit</button>
+        </form>
+      </div>
+    </div>
+    <div class="col">
+    </div>
+  </div>
+</div>
+
+<%- include ('partials/footer') %>
